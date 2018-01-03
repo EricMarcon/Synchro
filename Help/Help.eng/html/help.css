@@ -1,0 +1,25 @@
+Styles standard 
+a:link       { color: #0000FF }
+a:visited    { color: #008000 }
+a:hover      { color: #FF0000 }
+body         { background-color: #FFFFFF }
+h1           { font-family: Verdana; font-size: 14 pt; color: #008080 }
+h2           { font-family: Verdana; font-size: 12 pt; color: #008070; margin-left: 20 }
+h3           { font-family: Verdana; font-size: 10 pt; color: #993300; margin-left: 30 }
+hr           { size: 1; width: 100% }
+li           { font-family: Verdana; font-size: 10 pt; text-align: left }
+p            { font-family: Verdana; font-size: 10 pt; text-align: left }
+.FinPage     { font-family: Verdana; font-size: 8 pt; text-align: left }
+.Image       { text-align: center; margin-top: 10; margin-bottom: 10 ; border-width: 0 }
+.Cadre       { border-style: solid; border-width: 1 }
+.SousTitre   { font-family: Verdana; font-size: 18 pt; color: #000000 }
+.SommEncours { font-weight: bold }
+.SommNiveau1 {  }
+.SommNiveau2 {  }
+hr.Sommaire  { text-align: center; size: 1; width: 75% }
+.TMTitre     { font-family: Verdana; font-size: 14 pt; color: #008080 }
+.TM1         { font-family: Arial; font-size: 10 pt; font-style: italic; text-align: left; list-style-type: disc; margin-left: 20 }
+table.Entete { width: 100%; border-width: 0 }
+table.Page   { width: 100%; border-width: 0 }
+td.Titre     { vertical-align: bottom; font-family: Verdana; font-size: 18 pt; color: #7F7F7F }
+td.Texte     { vertical-align: top; width: 75%; border-spacing: 10px; padding: 10px }

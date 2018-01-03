@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="multilanguage" ignore="en">
+  <ENTRY id="Feature.Description.Feature">
+    <STRING lang="en" value="French language for Synchro"/>
+    <STRING lang="fr" value="Version française"/>
+  </ENTRY>
+  <ENTRY id="Feature.Description.MainFeature">
+    <STRING lang="en" value="Main program"/>
+    <STRING lang="fr" value="Programme principal"/>
+  </ENTRY>
+  <ENTRY id="Feature.Title.Feature">
+    <STRING lang="en" value="French"/>
+    <STRING lang="fr" value="Français"/>
+  </ENTRY>
+  <ENTRY id="Feature.Title.MainFeature">
+    <STRING lang="en" value="Application"/>
+    <STRING lang="fr" value="Programme"/>
+  </ENTRY>
+  <ENTRY id="ProgId.[|Manufacturer].[|ProductName].syn">
+    <STRING lang="en" value="Synchro file"/>
+    <STRING lang="fr" value="Fichier de synchronisation"/>
+  </ENTRY>
+  <ENTRY id="Property.ARPCOMMENTS">
+    <STRING lang="en" value="This installer database contains the logic and data required to install Synchro."/>
+    <STRING lang="fr" value="Ce programme permet l'installation de Synchro."/>
+  </ENTRY>
+  <ENTRY id="Property.Manufacturer">
+    <STRING lang="en" value="E.Marcon"/>
+    <STRING lang="fr" value="E.Marcon"/>
+  </ENTRY>
+  <ENTRY id="Property.ProductName">
+    <STRING lang="en" value="Synchro"/>
+    <STRING lang="fr" value="Synchro"/>
+  </ENTRY>
+  <ENTRY id="Shortcut.Description.Synchro">
+    <STRING lang="en" value="Folder Synchronization"/>
+    <STRING lang="fr" value="Synchronisation de dossiers"/>
+  </ENTRY>
+  <ENTRY id="Shortcut.Description.Update">
+    <STRING lang="en" value="Search and download updates for Synchro"/>
+    <STRING lang="fr" value="Rechercher et télécharger les mises à jour pour Synchro"/>
+  </ENTRY>
+  <ENTRY id="Shortcut.Name.Synchro">
+    <STRING lang="en" value="Synchro"/>
+    <STRING lang="fr" value="Synchro"/>
+  </ENTRY>
+  <ENTRY id="Shortcut.Name.Update">
+    <STRING lang="en" value="Update"/>
+    <STRING lang="fr" value="Mettre à jour"/>
+  </ENTRY>
+  <ENTRY id="Verb.Argument.syn#&amp;Open">
+    <STRING lang="en" value="&quot;%1&quot;"/>
+    <STRING lang="fr" value="&quot;%1&quot;"/>
+  </ENTRY>
+  <ENTRY id="Verb.Command.syn#&amp;Open">
+    <STRING lang="en" value="&amp;Open"/>
+    <STRING lang="fr" value="&amp;Ouvrir"/>
+  </ENTRY>
+</DICTIONARY>

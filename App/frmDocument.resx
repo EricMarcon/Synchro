@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;chkY.Name" xml:space="preserve">
+    <value>chkY</value>
+  </data>
+  <data name="&gt;&gt;chkE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkW.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblFileOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkW.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtSource.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="SaveFileDialogLog.Filter" xml:space="preserve">
+    <value>Log Files|*.log|All files|*.*</value>
+  </data>
+  <data name="chkQ.Text" xml:space="preserve">
+    <value>Quick copy: Do not evaluate folder size (/q)</value>
+  </data>
+  <data name="btnLogFile.ToolTip" xml:space="preserve">
+    <value>Choose the Log File</value>
+  </data>
+  <data name="CtlSynchro1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;chkY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkN.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;chkR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblExclude.Text" xml:space="preserve">
+    <value>Exclude (/x):</value>
+  </data>
+  <data name="&gt;&gt;chkD.Name" xml:space="preserve">
+    <value>chkD</value>
+  </data>
+  <data name="chkN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblExclude.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialogLog.Name" xml:space="preserve">
+    <value>SaveFileDialogLog</value>
+  </data>
+  <data name="txtLogFile.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="chkS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnTarget.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;chkSamba.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtTarget.Name" xml:space="preserve">
+    <value>txtTarget</value>
+  </data>
+  <data name="lblList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;CtlSynchro1.Type" xml:space="preserve">
+    <value>Synchro.ctlSynchro, ctlSynchro, Version=2.3.3427.20181, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 16</value>
+  </data>
+  <data name="txtLogFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 200</value>
+  </data>
+  <data name="chkW.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="chkY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 96</value>
+  </data>
+  <data name="chkN.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lstCopied.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="btnLogFile.Text" xml:space="preserve">
+    <value>To &amp;File...</value>
+  </data>
+  <data name="chkG.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkZ.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>696, 502</value>
+  </data>
+  <data name="chkSamba.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chkR.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;fbdTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkK.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="chkQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 131</value>
+  </data>
+  <data name="&gt;&gt;txtFileOn.Name" xml:space="preserve">
+    <value>txtFileOn</value>
+  </data>
+  <data name="&gt;&gt;chkK.Name" xml:space="preserve">
+    <value>chkK</value>
+  </data>
+  <data name="&gt;&gt;chkE.Name" xml:space="preserve">
+    <value>chkE</value>
+  </data>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="&gt;&gt;chkQ.Name" xml:space="preserve">
+    <value>chkQ</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Name" xml:space="preserve">
+    <value>lblSource</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSamba.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmDocument</value>
+  </data>
+  <data name="lblSource.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="lblExclude.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkW.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblTarget.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLogFile.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnStop.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSource.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CtlSynchro1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;txtLogFile.Name" xml:space="preserve">
+    <value>txtLogFile</value>
+  </data>
+  <data name="lblSource.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkQ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtExclude.ToolTip" xml:space="preserve">
+    <value>Files or folders to exclude (separate by ;)</value>
+  </data>
+  <data name="&gt;&gt;chkA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 16</value>
+  </data>
+  <data name="&gt;&gt;fbdSource.Name" xml:space="preserve">
+    <value>fbdSource</value>
+  </data>
+  <data name="chkY.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="CtlSynchro1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 280</value>
+  </data>
+  <data name="lblTarget.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkU.Name" xml:space="preserve">
+    <value>chkU</value>
+  </data>
+  <data name="chkG.Text" xml:space="preserve">
+    <value>Do not stop on errors (/g)</value>
+  </data>
+  <data name="txtExclude.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 16</value>
+  </data>
+  <data name="lblExclude.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="chkW.Text" xml:space="preserve">
+    <value>Confirm before closing window (/w)</value>
+  </data>
+  <data name="chkY.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblList.Text" xml:space="preserve">
+    <value>Actually processed files:</value>
+  </data>
+  <data name="chkD.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblSource.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.HelpKeyword" xml:space="preserve">
+    <value>Interactive mode</value>
+  </data>
+  <data name="chkD.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;CtlSynchro1.Name" xml:space="preserve">
+    <value>CtlSynchro1</value>
+  </data>
+  <data name="lblFileOn.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lblTarget.Name" xml:space="preserve">
+    <value>lblTarget</value>
+  </data>
+  <data name="chkZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 175</value>
+  </data>
+  <data name="lblExclude.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkA.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CtlSynchro1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 16</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileOn.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="btnTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 16</value>
+  </data>
+  <data name="chkR.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkL.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnStart.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 23</value>
+  </data>
+  <data name="chkG.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkK.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;chkL.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtTarget.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chkSamba.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblExclude.Name" xml:space="preserve">
+    <value>lblExclude</value>
+  </data>
+  <data name="chkZ.Text" xml:space="preserve">
+    <value>Synchronize (/z)</value>
+  </data>
+  <data name="btnSource.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkN.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chkE.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;chkR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;chkZ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSource.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 416</value>
+  </data>
+  <data name="txtFileOn.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;chkN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblList.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtTarget.ToolTip" xml:space="preserve">
+    <value>Target Folder</value>
+  </data>
+  <data name="&gt;&gt;chkW.Name" xml:space="preserve">
+    <value>chkW</value>
+  </data>
+  <data name="lblSource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkZ.Name" xml:space="preserve">
+    <value>chkZ</value>
+  </data>
+  <data name="chkU.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblExclude.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkQ.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStop.ToolTip" xml:space="preserve">
+    <value>Abort the synchronization</value>
+  </data>
+  <data name="chkY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 16</value>
+  </data>
+  <data name="chkU.Text" xml:space="preserve">
+    <value>Copy only existing files  (/u)</value>
+  </data>
+  <data name="&gt;&gt;fbdTarget.Name" xml:space="preserve">
+    <value>fbdTarget</value>
+  </data>
+  <data name="btnLogFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtLogFile.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Name" xml:space="preserve">
+    <value>HelpProvider1</value>
+  </data>
+  <data name="chkQ.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chkD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>Sto&amp;p</value>
+  </data>
+  <data name="chkA.Text" xml:space="preserve">
+    <value>Copy ACLs (/a)</value>
+  </data>
+  <data name="btnStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 112</value>
+  </data>
+  <data name="txtLogFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 20</value>
+  </data>
+  <data name="&gt;&gt;btnTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 40</value>
+  </data>
+  <data name="chkE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 86</value>
+  </data>
+  <data name="chkSamba.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 16</value>
+  </data>
+  <data name="&gt;&gt;txtLogFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkA.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkL.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFileOn.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="chkL.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkG.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="txtSource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkA.Name" xml:space="preserve">
+    <value>chkA</value>
+  </data>
+  <data name="chkL.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="lblFileOn.Text" xml:space="preserve">
+    <value>File being processed:</value>
+  </data>
+  <data name="&gt;&gt;chkL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkZ.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkG.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTarget.ToolTip" xml:space="preserve">
+    <value>Select the Target Folder</value>
+  </data>
+  <data name="&gt;&gt;chkY.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnLogFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 24</value>
+  </data>
+  <data name="chkZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSamba.Text" xml:space="preserve">
+    <value>Allow time approximation (/Samba)</value>
+  </data>
+  <data name="btnStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 456</value>
+  </data>
+  <data name="chkA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtFileOn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblList.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkE.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 70</value>
+  </data>
+  <data name="btnTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 40</value>
+  </data>
+  <data name="lblSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 16</value>
+  </data>
+  <data name="chkN.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txtExclude.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 223</value>
+  </data>
+  <data name="chkS.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkSamba.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 142</value>
+  </data>
+  <data name="&gt;&gt;lblFileOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkW.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
+    <value>btnStart</value>
+  </data>
+  <data name="lblSource.Text" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="&gt;&gt;txtSource.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fbdSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstCopied.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtTarget.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="&gt;&gt;lblFileOn.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;chkU.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblFileOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="chkR.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTarget.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="chkN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 16</value>
+  </data>
+  <data name="lstCopied.ToolTip" xml:space="preserve">
+    <value>List of actually copied (+) or deleted (-) files or folders. x is for excluded, ~ for changed ACLs, # for changed attributes
+</value>
+  </data>
+  <data name="&gt;&gt;txtExclude.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblTarget.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lstCopied.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 108</value>
+  </data>
+  <data name="chkK.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTarget.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkW.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblExclude.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstCopied.Name" xml:space="preserve">
+    <value>lstCopied</value>
+  </data>
+  <data name="chkS.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 16</value>
+  </data>
+  <data name="&gt;&gt;btnLogFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="chkK.Text" xml:space="preserve">
+    <value>Copy Attributes (/k)</value>
+  </data>
+  <data name="chkR.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkN.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnStop.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTarget.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkQ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblList.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="chkN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblList.Name" xml:space="preserve">
+    <value>lblList</value>
+  </data>
+  <data name="btnStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtExclude.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnTarget.Name" xml:space="preserve">
+    <value>btnTarget</value>
+  </data>
+  <data name="&gt;&gt;chkA.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chkE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtExclude.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblFileOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 23</value>
+  </data>
+  <data name="lblTarget.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="HelpProvider1.HelpNamespace" xml:space="preserve">
+    <value>Synchro.chm</value>
+  </data>
+  <data name="&gt;&gt;chkK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSource.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkL.Text" xml:space="preserve">
+    <value>Log operations  (/l)</value>
+  </data>
+  <data name="lstCopied.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTarget.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;txtSource.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSamba.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="txtSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="chkQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 16</value>
+  </data>
+  <data name="&gt;&gt;chkD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkW.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnSource.Name" xml:space="preserve">
+    <value>btnSource</value>
+  </data>
+  <data name="txtLogFile.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkY.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="chkN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 80</value>
+  </data>
+  <data name="btnLogFile.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;chkQ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtFileOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Name" xml:space="preserve">
+    <value>SaveFileDialog1</value>
+  </data>
+  <data name="txtLogFile.ToolTip" xml:space="preserve">
+    <value>Log File</value>
+  </data>
+  <data name="chkR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 110</value>
+  </data>
+  <data name="&gt;&gt;chkR.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="CtlSynchro1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>664, 96</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CtlSynchro1.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;chkSamba.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CtlSynchro1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkN.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chkW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 152</value>
+  </data>
+  <data name="&gt;&gt;txtLogFile.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;chkN.Name" xml:space="preserve">
+    <value>chkN</value>
+  </data>
+  <data name="chkU.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkU.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chkG.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtFileOn.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Name" xml:space="preserve">
+    <value>btnStop</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="lblFileOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 20</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAEAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAQAQEREREQB3d3d3d3cAAAABARAREREAf7i4uLi3AAAAAAARAQEBB/uLi4uL
+        gHAAAAAAAREREQf4uLi4uHBwAAAAABEQEQF/i4uLi4sHcAAAAAAAERERf//////3DwAAAAAAABEBAXd3
+        d3d3d38AAAmZAAABEREH+Lh/8A8P8AAAAJkAABARB/uLgA//D/AAAAAAkAARAQf4sA////D/AAAAAJAA
+        EREAf/f////w//AAAAAJAAEBAAd3//8A/w//AAAACQAAEAAAAH8A8P8PdwAACZmZAAEAAAAA//D/8AAA
+        AACZkAAAAAAA////D/8AAAAACQAAAAAAf////w//8AAAAAAAAAAAAH/////w93AAAAAAAAAAAAAH////
+        8HAAAAAAAAAAAAAAB/////8AAAAAAAAAAAAQAAB/////8AB3d3d3d3cAEAAAf/////8Af7i4uLi3ABAQ
+        AAf///93B/uLi4uLgHARAAAAf/93AAf4uLi4uHBwEREAAAd3AAB/i4uLi4sHcAEREAAAAAAAf//////3
+        CHAQEREAAAAAAHd3d3d3d3twEBERAQAAAAAH+Li4uLi4cBEQERERAAAAB/uLi4///3AREQEQEBAAAAf4
+        uLj3d3dwABERAREAAAAAf///cAAAABERERERERAAAAd3dwAAAADgAO0AwAD6QMAA/yqAAP+AgAD/EgAA
+        /8AAAP/KAADj4IAA/PSAAP9ygAB/cMAAP7rgAB+9/AA+DvwA/x/wAH+/8AA///AAf//4Af//+AHwAHwA
+        wAB8AEAAXgCAAD8DgAAPjwAAh/8AAEP/AABC/4AAED+AAAlfgAHCP8B/AAfg/w==
+</value>
+  </data>
+  <data name="&gt;&gt;chkZ.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnTarget.Text" xml:space="preserve">
+    <value>S&amp;elect</value>
+  </data>
+  <data name="&gt;&gt;chkD.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chkE.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="&gt;&gt;lblExclude.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkD.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkG.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblExclude.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 223</value>
+  </data>
+  <data name="btnSource.Text" xml:space="preserve">
+    <value>&amp;Select</value>
+  </data>
+  <data name="lblExclude.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLogFile.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtFileOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 20</value>
+  </data>
+  <data name="&gt;&gt;chkS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lstCopied.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="SaveFileDialog1.Filter" xml:space="preserve">
+    <value>Synchro Files|*.syn|All files|*.*</value>
+  </data>
+  <data name="chkD.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="btnSource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkW.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;chkG.Name" xml:space="preserve">
+    <value>chkG</value>
+  </data>
+  <data name="chkA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 199</value>
+  </data>
+  <data name="chkK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 216</value>
+  </data>
+  <data name="lblExclude.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="chkW.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtExclude.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtFileOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 256</value>
+  </data>
+  <data name="chkG.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="btnTarget.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLogFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 172</value>
+  </data>
+  <data name="lblSource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtExclude.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 20</value>
+  </data>
+  <data name="&gt;&gt;lstCopied.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblList.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 159</value>
+  </data>
+  <data name="chkD.Text" xml:space="preserve">
+    <value>Preserve newer files  (/d)</value>
+  </data>
+  <data name="chkG.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkQ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkU.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 23</value>
+  </data>
+  <data name="&gt;&gt;btnSource.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="chkZ.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="btnStart.ToolTip" xml:space="preserve">
+    <value>Start the synchronization</value>
+  </data>
+  <data name="btnTarget.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="lblTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkS.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnLogFile.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnStop.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkL.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;CtlSynchro1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 16</value>
+  </data>
+  <data name="chkSamba.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="btnSource.ToolTip" xml:space="preserve">
+    <value>Select the Source Folder</value>
+  </data>
+  <data name="&gt;&gt;chkS.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="chkA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="&gt;&gt;chkG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtExclude.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 20</value>
+  </data>
+  <data name="lblFileOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 256</value>
+  </data>
+  <data name="&gt;&gt;chkL.Name" xml:space="preserve">
+    <value>chkL</value>
+  </data>
+  <data name="lblList.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSamba.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Synchro</value>
+  </data>
+  <data name="&gt;&gt;txtExclude.Name" xml:space="preserve">
+    <value>txtExclude</value>
+  </data>
+  <data name="chkE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLogFile.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lstCopied.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialogLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTarget.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkS.Text" xml:space="preserve">
+    <value>Include Subdirectories  (/s)</value>
+  </data>
+  <data name="&gt;&gt;lblFileOn.Name" xml:space="preserve">
+    <value>lblFileOn</value>
+  </data>
+  <data name="btnStart.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 126</value>
+  </data>
+  <data name="lblTarget.Text" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="lblExclude.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="chkY.Text" xml:space="preserve">
+    <value>Do not prompt before deleting files (/y)</value>
+  </data>
+  <data name="lblList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 384</value>
+  </data>
+  <data name="chkL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 176</value>
+  </data>
+  <data name="&gt;&gt;chkK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLogFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkQ.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 16</value>
+  </data>
+  <data name="chkE.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 16</value>
+  </data>
+  <data name="&gt;&gt;btnLogFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkL.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="chkA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 16</value>
+  </data>
+  <data name="&gt;&gt;chkSamba.Name" xml:space="preserve">
+    <value>chkSamba</value>
+  </data>
+  <data name="&gt;&gt;chkS.Name" xml:space="preserve">
+    <value>chkS</value>
+  </data>
+  <data name="&gt;&gt;lblTarget.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 40</value>
+  </data>
+  <data name="btnSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 23</value>
+  </data>
+  <data name="&gt;&gt;chkZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkN.Text" xml:space="preserve">
+    <value>Do not prompt before creating files  (/n)</value>
+  </data>
+  <data name="&gt;&gt;btnTarget.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lstCopied.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 384</value>
+  </data>
+  <data name="&gt;&gt;chkR.Name" xml:space="preserve">
+    <value>chkR</value>
+  </data>
+  <data name="chkE.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSource.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="chkR.Text" xml:space="preserve">
+    <value>Overwrite Read-only files (/r)</value>
+  </data>
+  <data name="&gt;&gt;txtTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkY.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblFileOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkA.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtSource.Name" xml:space="preserve">
+    <value>txtSource</value>
+  </data>
+  <data name="&gt;&gt;chkG.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFileOn.ToolTip" xml:space="preserve">
+    <value>File or folder being processed</value>
+  </data>
+  <data name="&gt;&gt;chkU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblList.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="chkQ.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;chkL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnStop.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="chkQ.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chkY.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkU.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="txtSource.ToolTip" xml:space="preserve">
+    <value>Source Folder</value>
+  </data>
+  <data name="chkE.Text" xml:space="preserve">
+    <value>Create empty subdirectories  (/e)</value>
+  </data>
+  <data name="txtSource.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="&gt;&gt;btnLogFile.Name" xml:space="preserve">
+    <value>btnLogFile</value>
+  </data>
+  <data name="&gt;&gt;txtFileOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 16</value>
+  </data>
+  <data name="btnSource.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>KeywordIndex</value>
+  </data>
+  <data name="lblFileOn.ShowHelp" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>502, 17</value>
+  </metadata>
+  <metadata name="SaveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="HelpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>287, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SaveFileDialogLog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>146, 17</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>408, 17</value>
+  </metadata>
+  <metadata name="fbdSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>588, 17</value>
+  </metadata>
+  <metadata name="fbdTarget.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>689, 17</value>
+  </metadata>
+</root>

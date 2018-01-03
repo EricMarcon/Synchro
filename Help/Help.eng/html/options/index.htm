@@ -1,0 +1,108 @@
+<!doctype HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>Synchro - Options</title>
+<link href="../help.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body background="../images/fond.jpg" bgproperties="fixed">
+
+<table class="Entete">
+  <tr>
+    <td class="Titre">Options<br />
+    <span class="SousTitre">Synchro</span></td>
+  </tr>
+</table>
+<hr size="1" />
+<table class="Page">
+  <tr> 
+    <td class="Texte"> <h1>Options</h1>
+      <p>Options can be used in the <a href="../commandline/index.htm">command 
+        line</a> or checked on the synchronization form in <a href="../interactive/index.htm">interactive 
+        mode</a>. </p>
+      <h2>Copy options</h2>
+      <ul>
+        <li><strong>/s</strong>: Copy subfolders.</li>
+        <li><strong>/e</strong>: Copie empty subfolders. Meaningless without /s.</li>
+        <li><strong>/r</strong>: Overwrite read-only files.</li>
+        <li><strong>/d</strong>: Preserve newer files. Only older files will be 
+          overwritten. If size is different, files will be copied anyway. </li>
+        <li><strong>/Samba</strong>: with /d, considers file dates are identical if they differ by less than a second. Allows using different file systems for source and targets, especially Samba NASes. </li>
+        <li><strong>/u</strong>: Only copy existing files. No new file will be 
+          created.</li>
+        <li><strong>/a</strong>&nbsp;: Copy ACLs, including access rights (DACLs), audit parameters and ownership. Rights on files are changed only if the file is changed before.</li>
+        <li><strong>/k</strong>&nbsp;: Copy file and folder attributes (read only,...). File attributes are changed only if the file is changed before. </li>
+        <li><strong>/x=&quot;List&quot;</strong>: excludes files and folders
+                according  to the patterns.
+          <ul>
+            <li>Wildcards<strong> *</strong> and <strong>?</strong> can
+                  be used. Separate the patterns by&nbsp;<strong>;</strong>.
+                  Examples: </li>
+          </ul>
+        </li>
+        <ul>
+          <ul>
+            <li>/x=&quot;*\Local Settings\*&quot;&nbsp;: excludes the <em>Local
+                   settings</em> folder.</li>
+            <li>/x=&quot;*\temp\*;*.bak;*\~*&quot;&nbsp;: excludes the <em>Temp</em> folder,
+                    files whose extension is <em>.bak</em>, and files and folders
+                 starting with <em>~</em>.</li>
+          </ul>
+          <li>For advanced users, other characters are available:
+            <ul>
+              <li><strong>#</strong> is for a digit (more restrictive than <strong>?</strong>)</li>
+              <li><strong>[</strong>A<strong>-</strong>E<strong>]</strong> is
+                for all characters between A and E, whatever the case,
+                eventually including accented characters depending on the system
+                locale (accented e are excluded here because they come after
+                E in the sort order)</li>
+              <li><strong>[!</strong>B<strong>-</strong>D<strong>]</strong> is
+                for all characters except those between B and D.</li>
+              <li>Example: The file <em>C:\aM5b.exe</em> will not be copied
+                with option /x=&quot;C:\a[L-P]#[!c-e]*&quot;</li>
+            </ul>
+          </li>
+        </ul>
+      </ul>
+      <h2>Behavior options</h2>
+      <ul>
+        <li><strong>/n</strong>: Do not prompt before creating new files.</li>
+        <li><strong>/y</strong>: Do not prompt before deleting files</li>
+        <li><strong>/g</strong>: Do not prompt stop processing when errors occur <strong></strong></li>
+        <li><strong>/w</strong>: Prompt before closing the window at the end
+          of  the synchronization (no effect in console
+          mode)</li>
+        <li><strong>/q</strong>: Do not evaluate the folder size before
+          copying it. Faster at the cost of the progress bar (no effect in console
+          mode)</li>
+        <li><strong>/l =&quot;File Name&quot;</strong>: Log activity in the chosen
+          file  </li>
+      </ul>
+      <p>&nbsp;</p>
+      <h2>Command line only</h2>
+      <ul>
+        <li><strong>/go</strong> launches the synchronization in console mode.
+          Messages are displayed in the active command console. If /n and /y
+          options are used, no user intervention is needed. /g and /q are forced, /w is ignored. </li>
+      </ul>
+      <p>&nbsp;</p>
+      <h1>Example:</h1>
+      <ul>
+        <li><strong>Synchro &quot;C:\Tools\My Docs.syn&quot; /go</strong> runs 
+          the synchronization saved in &quot;My Docs.syn&quot;. It starts automatically.</li>
+        <li><strong>Synchro /Source=C:\Source Target=C:\Target /s /e /n /z /l=C:\Synchro.log 
+          </strong> synchronizes C:\Target on C:\Source. It copies subfolders, 
+          even empty, does not prompt before creating files (but prompts before 
+          deleting), and deletes extra files in the target. Everything is recorder 
+          in the C:\Synchro.log file.</li>
+      </ul>
+      <hr /> 
+      <p class="FinPage">&copy; 2003-2009 - Updated
+        <!-- #BeginDate format:Am3 -->03/12/2009<!-- #EndDate -->
+    </p></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

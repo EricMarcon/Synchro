@@ -1,0 +1,58 @@
+﻿<project schemaVersion="1.6.0.7">
+    <assemblies>
+        <assembly assemblyPath="..\Common Tools\CG.Animation\bin\CG.Animation.dll" xmlCommentsPath="..\Common Tools\CG.Animation\bin\CG.Animation.xml" commentsOnly="False" />
+        <assembly assemblyPath=".\ctlSynchro\bin\ctlSynchro.dll" xmlCommentsPath=".\ctlSynchro\bin\ctlSynchro.xml" commentsOnly="False" />
+        <assembly assemblyPath=".\App\bin\Synchro.exe" xmlCommentsPath=".\App\bin\Synchro.xml" commentsOnly="False" />
+    </assemblies>
+    <namespaceSummaries>
+        <namespaceSummaryItem name="" isDocumented="False" />
+        <namespaceSummaryItem name="CG.Animation" isDocumented="False">CG Animation</namespaceSummaryItem>
+        <namespaceSummaryItem name="CG.Animation.Design" isDocumented="False">CG Animation Design</namespaceSummaryItem>
+        <namespaceSummaryItem name="CG.Core.Resource" isDocumented="False">CG Animation Core Ressources</namespaceSummaryItem>
+        <namespaceSummaryItem name="Synchro" isDocumented="True">Synchro control name space.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Synchro.CommandLine.Utility" isDocumented="True">Command line utility.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Synchro.My" isDocumented="False">My namespace.</namespaceSummaryItem>
+        <namespaceSummaryItem name="Synchro.My.Resources" isDocumented="False">Ressources for Synchro</namespaceSummaryItem>
+    </namespaceSummaries>
+    <ProjectSummary>A utility to synchronize folders.</ProjectSummary>
+    <MissingTags>Namespace, TypeParameter</MissingTags>
+    <VisibleItems>Privates, Protected, SealedProtected, PrivateFields</VisibleItems>
+    <HtmlHelp1xCompilerPath path="" />
+    <HtmlHelp2xCompilerPath path="" />
+    <OutputPath>.\Help\</OutputPath>
+    <SandcastlePath path="C:\Program Files\Sandcastle\" />
+    <WorkingPath path="" />
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <BuildLogFile path="" />
+    <HelpFileFormat>HtmlHelp1x</HelpFileFormat>
+    <CppCommentsFixup>False</CppCommentsFixup>
+    <FrameworkVersion>2.0.50727</FrameworkVersion>
+    <IndentHtml>False</IndentHtml>
+    <Preliminary>False</Preliminary>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <RootNamespaceTitle />
+    <HelpTitle>Synchro Documentation</HelpTitle>
+    <HtmlHelpName>Documentation</HtmlHelpName>
+    <Language>en-US</Language>
+    <CopyrightHref>http://e.marcon.free.fr/Synchro</CopyrightHref>
+    <CopyrightText>Eric Marcon</CopyrightText>
+    <FeedbackEMailAddress>e.marcon@free.fr</FeedbackEMailAddress>
+    <FeedbackEMailLinkText />
+    <HeaderText />
+    <FooterText />
+    <ProjectLinkType>Local</ProjectLinkType>
+    <SdkLinkType>Msdn</SdkLinkType>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <PresentationStyle>vs2005</PresentationStyle>
+    <NamingMethod>Guid</NamingMethod>
+    <SyntaxFilters>Standard</SyntaxFilters>
+    <ShowFeedbackControl>False</ShowFeedbackControl>
+    <BinaryTOC>True</BinaryTOC>
+    <IncludeFavorites>False</IncludeFavorites>
+    <CollectionTocStyle>Hierarchical</CollectionTocStyle>
+    <IncludeStopWordList>True</IncludeStopWordList>
+    <PlugInNamespaces>ms.vsipcc+, ms.vsexpresscc+</PlugInNamespaces>
+    <HelpFileVersion>1.0.0.0</HelpFileVersion>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+</project>

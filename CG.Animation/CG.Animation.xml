@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CG.Animation</name>
+    </assembly>
+    <members>
+        <member name="T:CG.Animation.CGAnimation">
+            <summary>
+            A managed wrapper for the animation common control.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_autoPlay">
+            <summary>
+            Indicates that the control should play automatically.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_autoCenter">
+            <summary>
+            Indicates that the control should automtically center the
+            animation.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_isTransparent">
+            <summary>
+            Indicates that the control should use a transparent color.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_isPlaying">
+            <summary>
+            Indicates that the control is currently playing.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_isOpen">
+            <summary>
+            Indicates that an animation file is currently open.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_useTimer">
+            <summary>
+            Indicates that the control should use a timer to synchronize
+            the animation rather than a background thread.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_fileName">
+            <summary>
+            The path to the current animation.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_aviFileType">
+            <summary>
+            The identifier of the current animation.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAnimation.m_hShellModule">
+            <summary>
+            The handle to the shell32 library.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.BackgroundImage">
+            <summary>
+            Overridden in order to hide the property from the visual designer.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.IsPlaying">
+            <summary>
+            Indicates that the control is currently playing.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.IsOpen">
+            <summary>
+            Indicates that an animation is currently open.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.BackColor">
+            <summary>
+            Gets and sets the background color for the control.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.Transparent">
+            <summary>
+            Indicates that the control should play the animation with a 
+            transparent background.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.UseTimer">
+            <summary>
+            Indicates whether the control should use a timer to synchronize 
+            the animation playback. When set, the control plays the clip 
+            without creating a thread.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.AutoCenter">
+            <summary>
+            Indicates that the animation should automtically center itself in
+            the control.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.AutoPlay">
+            <summary>
+            Indicates that the control should start playing an animation as
+            soon as one is opened.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.FileName">
+            <summary>
+            Gets and sets the filename of the current animation.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.AVIFileType">
+            <summary>
+            Gets or sets the type of animation currently open.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.#ctor">
+            <summary>
+            Creates a new instance of the CGAnimation class.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.DefaultSize">
+            <summary>
+            Gets the default size for the control.
+            </summary>
+        </member>
+        <member name="P:CG.Animation.CGAnimation.CreateParams">
+            <summary>
+            Gets the required creation parameters when the control handle is 
+            created.  
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.CreateHandle">
+            <summary>
+            Creates a handle for the control.  
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.OnHandleCreated(System.EventArgs)">
+            <summary>
+            Raises the HandleCreated event.  
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            Processes Windows messages.  
+            </summary>
+            <param name="m">The message to process. </param>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.Open">
+            <summary>
+            Opens the animation specified by the AVIFileType and FileName
+            properties.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.Close">
+            <summary>
+            Closes the current animation.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.Stop">
+            <summary>
+            Stops the currently playing animation.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.Play">
+            <summary>
+            Play the currently open animation from start to finish in a 
+            never ending loop.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.Play(System.Int32)">
+            <summary>
+            Plays the currently open animation from start to finish the 
+            specified number of times.
+            </summary>
+            <param name="repetitions">The number of times to play the 
+            animation.</param>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.Play(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Plays the currently open animation.
+            </summary>
+            <param name="repetitions">The number of times to play the 
+            animation.</param>
+            <param name="startFrame">The starting frame.</param>
+            <param name="endFrame">The ending frame.</param>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.Seek(System.Int32)">
+            <summary>
+            Seeks to a new position in the currently open animation.
+            </summary>
+            <param name="frame">The frame to seek to.</param>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.PlayHelper(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Plays the currently open animation.
+            </summary>
+            <param name="repetitions"></param>
+            <param name="startFrame"></param>
+            <param name="endFrame"></param>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.OpenHelper(System.String)">
+            <summary>
+            Opens an external AVI file.
+            </summary>
+            <param name="fileName">The path to an external AVI file.</param>
+        </member>
+        <member name="M:CG.Animation.CGAnimation.OpenHelper(CG.Animation.CGAVIFileType)">
+            <summary>
+            Opens an external AVI file.
+            </summary>
+            <param name="animationType">The identifier of a standard 
+            animation.</param>
+        </member>
+        <member name="T:CG.Animation.CGAVIFileType">
+            <summary>
+            Identifies various types of standard animations.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.ExternalFile">
+            <summary>
+            An external AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.Search4Folder">
+            <summary>
+            The "search for folder" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.Search4Computer">
+            <summary>
+            The "search for computer" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.Search4File">
+            <summary>
+            The "seach for file" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.SearchWeb">
+            <summary>
+            The "search the internet" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.CopySettings">
+            <summary>
+            The "copy settings" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.CopyFile">
+            <summary>
+            The "copy file" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.DeleteFile">
+            <summary>
+            The "delete file" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.MoveFile">
+            <summary>
+            The "move file" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.Delete2RecycleBin">
+            <summary>
+            The "delete to recycle bin" AVI file.
+            </summary>
+        </member>
+        <member name="F:CG.Animation.CGAVIFileType.CleanRecycleBin">
+            <summary>
+            The "clean the recycle bin" AVI file.
+            </summary>
+        </member>
+        <member name="T:CG.Animation.Design.CGAVIFileEditor">
+            <summary>
+            A file-name editor specialized for AVI files.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.Design.CGAVIFileEditor.#ctor">
+            <summary>
+            Creates a new instance of the CGAVIFileEditor class.
+            </summary>
+        </member>
+        <member name="M:CG.Animation.Design.CGAVIFileEditor.InitializeDialog(System.Windows.Forms.OpenFileDialog)">
+            <summary>
+            Initializes the file-open dialog.
+            </summary>
+            <param name="openFileDialog">The dialog to be initialized.</param>
+        </member>
+        <member name="T:CG.Animation.NativeMethods">
+            <summary>
+            Provides access to native WIN32 and COM stuff.
+            </summary>
+        </member>
+        <member name="T:CG.Animation.NativeMethods.INITCOMMONCONTROLSEX">
+            <summary>
+            Carries information used to load common control classes from the 
+            dynamic-link library (DLL). This structure is used with the 
+            InitCommonControlsEx function. 
+            </summary>
+        </member>
+        <member name="T:CG.Core.Resource.CGCategoryAttribute">
+            <summary>
+            A localized category attribute for displaying properties or events in a 
+            visual designer.
+            </summary>
+        </member>
+        <member name="F:CG.Core.Resource.CGCategoryAttribute.m_classType">
+            <summary>
+            Indentifies which class to load resources from.
+            </summary>
+        </member>
+        <member name="M:CG.Core.Resource.CGCategoryAttribute.#ctor(System.Type,System.String)">
+            <summary>
+            Creates a new instance of the CGCategoryAttribute class.
+            </summary>
+            <param name="classType">Identifies which class to load resources from.</param>
+            <param name="category">Identifies the unlocalized name of the catagory.</param>
+        </member>
+        <member name="M:CG.Core.Resource.CGCategoryAttribute.GetLocalizedString(System.String)">
+            <summary>
+            Overridden in order to lookup up the localized name of a given category.  
+            </summary>
+            <param name="value">The unlocalized category name.</param>
+            <returns>The localized category name.</returns>
+        </member>
+        <member name="T:CG.Core.Resource.CGDescriptionAttribute">
+            <summary>
+            A localized description attribute for describing properties or 
+            events in a visual designer.  
+            </summary>
+        </member>
+        <member name="F:CG.Core.Resource.CGDescriptionAttribute.m_replaced">
+            <summary>
+            Flag used to indicate that the description has been replaced.
+            </summary>
+        </member>
+        <member name="F:CG.Core.Resource.CGDescriptionAttribute.m_classType">
+            <summary>
+            Indentifies which class to load resources from.
+            </summary>
+        </member>
+        <member name="P:CG.Core.Resource.CGDescriptionAttribute.Description">
+            <summary>
+            Overridden in order to get a localized description.
+            </summary>
+        </member>
+        <member name="M:CG.Core.Resource.CGDescriptionAttribute.#ctor(System.Type,System.String)">
+            <summary>
+            Creates a new instance of the CGDescriptionAttribute class.
+            </summary>
+            <param name="classType">Identifies which class to load resources from.</param>
+            <param name="description">The unlocalized description.</param>
+        </member>
+        <member name="T:CG.Core.Resource.CGResource">
+            <summary>
+            A class utility containing various resource reading routines.
+            </summary>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.#ctor">
+            <summary>
+            Creates a new instance of the CGResource class.
+            </summary>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetBoolean(System.Type,System.String)">
+            <summary>
+            Gets a boolean value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A boolean value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetBoolean(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets a boolean value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A boolean value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetByte(System.Type,System.String)">
+            <summary>
+            Gets a byte value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A byte value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetByte(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets a byte value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A byte value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetChar(System.Type,System.String)">
+            <summary>
+            Gets a char value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A char value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetChar(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets a char value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A char value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetDouble(System.Type,System.String)">
+            <summary>
+            Gets a double value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A double value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetDouble(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets a double value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A double value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetFloat(System.Type,System.String)">
+            <summary>
+            Gets a float value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A float value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetFloat(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets a float value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A float value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetInt(System.Type,System.String)">
+            <summary>
+            Gets an integer value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>An integer value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetInt(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets an integer value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A integer value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetLong(System.Type,System.String)">
+            <summary>
+            Gets a long value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A long value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetLong(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets a long value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A long value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetObject(System.Type,System.String)">
+            <summary>
+            Gets an object value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>An object value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetObject(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets an object value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>An object value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetShort(System.Type,System.String)">
+            <summary>
+            Gets a short value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A short value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetShort(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets a short value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A short value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetString(System.Type,System.String)">
+            <summary>
+            Gets a string value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A string value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetString(System.Type,System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Gets a string value from the resource file associated with the 
+            specified class.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <returns>A string value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetString(System.Type,System.String,System.Object[])">
+            <summary>
+            Gets a string value from the resource file associated with the 
+            specified class and formats the value using the specified parameters.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <param name="args">An array of values to be used when formatting
+            the resource value.</param>
+            <returns>A formatted string value.</returns>
+        </member>
+        <member name="M:CG.Core.Resource.CGResource.GetString(System.Type,System.Globalization.CultureInfo,System.String,System.Object[])">
+            <summary>
+            Gets a string value from the resource file associated with the 
+            specified class and formats the value using the specified parameters.
+            </summary>
+            <param name="classType">The class that contains the resource.</param>
+            <param name="culture">An identifier for a specific culture.</param>
+            <param name="resourceName">The name of the resource to read.</param>
+            <param name="args">An array of values to be used when formatting
+            the resource value.</param>
+            <returns>A formatted string value.</returns>
+        </member>
+    </members>
+</doc>

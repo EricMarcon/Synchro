@@ -1,0 +1,53 @@
+<!doctype HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>Synchro - Command line</title>
+<link href="../help.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body background="../images/fond.jpg" bgproperties="fixed">
+
+<table class="Entete">
+  <tr>
+    <td class="Titre">Running from the command line<br />
+    <span class="SousTitre">Synchro</span></td>
+  </tr>
+</table>
+<hr size="1" />
+<table class="Page">
+  <tr> 
+    <td class="Texte"> <h1>Syntax</h1>
+      <p>Synchro [File.syn] [Source Target] [/Options] [/go]</p>
+      <ul>
+        <li><strong>Fichier.syn</strong> is a previously saved synchronization 
+          file. It contains all the necessary data. If options are added, they 
+          will replace the file values.</li>
+        <li><strong>Source</strong> and <strong>Target</strong> are the folders 
+          to synchronize.</li>
+        <li><a href="../options/index.htm">Options</a></li>
+        <li><strong>/go</strong> launches the synchronization in console mode.
+          Messages are displayed in the active command console. If /n and /y
+          options are used, no user intervention is needed. Synchro returns an
+          ErrorStatus: 0 if the copy succeeded, 1 if there was nothing to do
+          or 2 if it failed.</li>
+        <li><strong>/help</strong> displays help in the console.</li>
+      </ul>
+      <h1>Example:</h1>      
+      <ul>
+        <li><strong>Synchro &quot;C:\Tools\My Docs.syn&quot; /go</strong> runs 
+          the synchronization saved in &quot;My Docs.syn&quot;. It starts automatically.</li>
+        <li><strong>Synchro /Source=C:\Source /Target=C:\Target /s /e /n /z /l=C:\Synchro.log 
+          </strong> synchronizes C:\Target on C:\Source. It copies subfolders,
+           even empty, does not prompt before creating files (but prompts before
+           deleting), and deletes extra files in the target. Everything is recorder
+           in the C:\Synchro.log file.</li>
+      </ul>
+      <hr /> <p class="FinPage">&copy; 2003-2009 - Updated 
+        <!-- #BeginDate format:Am3 -->03/12/2009<!-- #EndDate -->
+</p></td>
+  </tr>
+</table>
+
+</body>
+
+</html><!-- #BeginDate format:Am3 -->03/12/2009<!-- #EndDate -->

@@ -1,5 +1,5 @@
 # Synchro
-Synchronize folders for Windows.
+**Synchronize folders for Windows.**
 
 The Synchro control is a Visual Studio multithreaded user control allowing folder copy and synchronization. 
 The control is visually a progress bar that can be added to a form. 
@@ -13,6 +13,15 @@ It allows synchronizing several folders at the same time and saving parameters a
 It runs both interactively or as a command line (see Help for the syntax). 
 It was not written to replace Robocopy (from Windows Resource Kit) as a tool typically used in a scheduled task. 
 _Synchro_ (the application) is, however, much easier to use by common people.
+
+## Download binaries
+
+- [x64](Synchro.x64.exe): For any x64 version of Windows > XP SP3. Recommended.
+
+- [x86](Synchro.exe): for any version of Windows > XP SP3.
+
+The installers will download .NET Framework 4.7 if needed.
+
 
 ## Using the code
 

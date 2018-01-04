@@ -16,9 +16,9 @@ _Synchro_ (the application) is, however, much easier to use by common people.
 
 ## Download binaries
 
-- [x64](Synchro.x64.exe): For any x64 version of Windows > XP SP3. Recommended.
+- [x64](https://github.com/EricMarcon/Synchro/releases/download/2.5/64-bit.executable.installer.exe): For any x64 version of Windows > XP SP3. Recommended.
 
-- [x86](Synchro.exe): for any version of Windows > XP SP3.
+- [x86](https://github.com/EricMarcon/Synchro/releases/download/2.5/32-bit.executable.installer.exe): for any version of Windows > XP SP3.
 
 The installers will download .NET Framework 4.7 if needed.
 

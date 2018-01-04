@@ -17,8 +17,8 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("Synchro Control")> 
 <Assembly: AssemblyDescription("File System Utilities")> 
 <Assembly: AssemblyCompany("E. Marcon")> 
-<Assembly: AssemblyProduct("Synchro")> 
-<Assembly: AssemblyCopyright("(c)2003-2006, Eric Marcon")> 
+<Assembly: AssemblyProduct("Synchro")>
+<Assembly: AssemblyCopyright("(c)2003-2018, Eric Marcon")>
 <Assembly: AssemblyTrademark("")> 
 <Assembly: CLSCompliant(True)> 
 

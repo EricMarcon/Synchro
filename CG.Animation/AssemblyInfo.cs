@@ -38,7 +38,6 @@ using System.Security.Permissions;
 
 [assembly: ComVisible(false)]
 [assembly: CLSCompliant(true)]
-[assembly: FileIOPermission(SecurityAction.RequestMinimum)]
 
 //
 // Version information for an assembly consists of the following four values:

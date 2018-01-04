@@ -29,15 +29,15 @@ Partial Class AboutBox
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AboutBox))
-        Me.TableLayoutPanel = New System.Windows.Forms.TableLayoutPanel
-        Me.LogoPictureBox = New System.Windows.Forms.PictureBox
-        Me.LabelProductName = New System.Windows.Forms.Label
-        Me.LabelVersion = New System.Windows.Forms.Label
-        Me.LabelCopyright = New System.Windows.Forms.Label
-        Me.LabelCompanyName = New System.Windows.Forms.Label
-        Me.TextBoxDescription = New System.Windows.Forms.TextBox
-        Me.OKButton = New System.Windows.Forms.Button
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel
+        Me.TableLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
+        Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
+        Me.LabelProductName = New System.Windows.Forms.Label()
+        Me.LabelVersion = New System.Windows.Forms.Label()
+        Me.LabelCopyright = New System.Windows.Forms.Label()
+        Me.LabelCompanyName = New System.Windows.Forms.Label()
+        Me.TextBoxDescription = New System.Windows.Forms.TextBox()
+        Me.OKButton = New System.Windows.Forms.Button()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.TableLayoutPanel.SuspendLayout()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -66,25 +66,21 @@ Partial Class AboutBox
         'LabelProductName
         '
         resources.ApplyResources(Me.LabelProductName, "LabelProductName")
-        Me.LabelProductName.MaximumSize = New System.Drawing.Size(0, 17)
         Me.LabelProductName.Name = "LabelProductName"
         '
         'LabelVersion
         '
         resources.ApplyResources(Me.LabelVersion, "LabelVersion")
-        Me.LabelVersion.MaximumSize = New System.Drawing.Size(0, 17)
         Me.LabelVersion.Name = "LabelVersion"
         '
         'LabelCopyright
         '
         resources.ApplyResources(Me.LabelCopyright, "LabelCopyright")
-        Me.LabelCopyright.MaximumSize = New System.Drawing.Size(0, 17)
         Me.LabelCopyright.Name = "LabelCopyright"
         '
         'LabelCompanyName
         '
         resources.ApplyResources(Me.LabelCompanyName, "LabelCompanyName")
-        Me.LabelCompanyName.MaximumSize = New System.Drawing.Size(0, 17)
         Me.LabelCompanyName.Name = "LabelCompanyName"
         '
         'TextBoxDescription
@@ -105,6 +101,7 @@ Partial Class AboutBox
         resources.ApplyResources(Me.LinkLabel1, "LinkLabel1")
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.UseCompatibleTextRendering = True
         '
         'AboutBox
         '

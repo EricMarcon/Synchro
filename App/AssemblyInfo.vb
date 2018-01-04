@@ -18,7 +18,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Folder synchronization utility")> 
 <Assembly: AssemblyCompany("E. Marcon")> 
 <Assembly: AssemblyProduct("Synchro")>
-<Assembly: AssemblyCopyright("© 2003-2017, Eric Marcon")>
+<Assembly: AssemblyCopyright("© 2003-2018, Eric Marcon")>
 <Assembly: AssemblyTrademark("All Rights Reserved")> 
 <Assembly: CLSCompliant(True)> 
 

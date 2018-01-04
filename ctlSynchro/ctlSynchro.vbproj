@@ -207,8 +207,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Common Tools\CG.Animation\CG.Animation.csproj">
-      <Project>{E91C2B4A-F15E-4FF3-B72E-E268B16FE1EA}</Project>
+    <ProjectReference Include="..\CG.Animation\CG.Animation.csproj">
+      <Project>{e91c2b4a-f15e-4ff3-b72e-e268b16fe1ea}</Project>
       <Name>CG.Animation</Name>
     </ProjectReference>
   </ItemGroup>

@@ -260,5 +260,8 @@ paket-files/
 __pycache__/
 *.pyc
 
-# Personal tools
+# Synchro, Advanced Installer
 *.syn
+Synchro-cache/
+Synchro.x64-cache/
+*.back.aip

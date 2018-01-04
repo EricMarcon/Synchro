@@ -265,3 +265,4 @@ __pycache__/
 Synchro-cache/
 Synchro.x64-cache/
 *.back.aip
+Release/

@@ -1,5 +1,5 @@
 # Synchro
-Synchronize folders for Windows.
+**Synchronize folders for Windows.**
 
 The Synchro control is a Visual Studio multithreaded user control allowing folder copy and synchronization. 
 The control is visually a progress bar that can be added to a form. 

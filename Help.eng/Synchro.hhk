@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Command Line">
+		<param name="Name" value="Synchro - Command line">
+		<param name="Local" value="html\commandline\index.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Copy Options">
+		<param name="Name" value="Synchro - Options">
+		<param name="Local" value="html\options\index.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Program Options">
+		<param name="Name" value="Synchro - interactive mode options">
+		<param name="Local" value="html\interactive\options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Interactive mode">
+		<param name="Name" value="Synchro - Mode interactif">
+		<param name="Local" value="html\interactive\index.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Error status">
+		<param name="Name" value="Synchro - Command line">
+		<param name="Local" value="html\commandline\index.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

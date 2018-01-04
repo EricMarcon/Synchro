@@ -1,0 +1,62 @@
+<!doctype HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>Synchro - Ligne de commande</title>
+<link href="../help.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body background="../images/fond.jpg" bgproperties="fixed">
+
+<table class="Entete">
+  <tr>
+    <td class="Titre">Ex&eacute;cution &agrave; partir de la ligne de commande<br />
+    <span class="SousTitre">Synchro</span></td>
+  </tr>
+</table>
+<hr size="1" />
+<table class="Page">
+  <tr> 
+    <td class="Texte"> <h1>Syntaxe</h1>
+      <p>Synchro [Fichier.syn] [Source Cible] [/Options] [/go]</p>
+      <ul>
+        <li><strong>Fichier.syn</strong> est un fichier de synchronisation cr&eacute;&eacute; 
+          pr&eacute;c&eacute;demment. Il contient toutes les informations n&eacute;cessaires, 
+          mais si d'autres options sont saisies, elles remplaceront le contenu 
+          du fichier.</li>
+        <li><strong>Source</strong> et <strong>Cible</strong> sont les chemins 
+          des r&eacute;pertoires &agrave; synchroniser.</li>
+        <li><a href="../options/index.htm">Options</a></li>
+        <li>L'option <strong>/go</strong> lance la synchronisation en mode console.
+          Les messages sont affich&eacute;s dans la fen&ecirc;tre de commande
+          en cours, aucune fen&ecirc;tre n'est ouverte. Si les options /n et
+          /y sont utilis&eacute;es, aucune
+          intervention de l'utilisateur n'est n&eacute;cessaire.  Synchro retourne
+          le r&eacute;sultat des op&eacute;rations dans la variable ErrorStatus&nbsp;:
+          0 en cas de succ&egrave;s, 1 s'il n'y avait rien &agrave; copier, 2
+          si la copie a &eacute;chou&eacute;.</li>
+        <li>l'option <strong>/help</strong> affiche l'aide en mode console. </li>
+      </ul>
+      <h1>Exemple:</h1>
+      <ul>
+        <li><strong>Synchro &quot;C:\Tools\My Docs.syn&quot; /go</strong> lance 
+          la synchronisation sauv&eacute;e dans &quot;My Docs.syn&quot;. Il d&eacute;marre 
+          automatiquement.</li>
+        <li><strong>Synchro /Source=C:\Source /Target=C:\Target /s /e /n /z /l=C:\Synchro.log 
+          </strong> synchronise C:\Target sur C:\Source. Il copie les sous-r&eacute;pertoires,
+           m&ecirc;me vides, ne demande pas de confirmation avant de cr&eacute;er
+            les fichiers (mais demande avant de supprimer), et supprime les fichiers
+            exc&eacute;dentaires dans la cible. L'acivit&eacute; est enregistr&eacute;e
+             dans le fichier C:\Synchro.log.</li>
+      </ul>
+      <hr /> <p class="FinPage">&copy; 2003-2009 - Mise à jour le 
+        <!-- #BeginDate format:En2 -->01-F&eacute;v-2005<!-- #EndDate -->
+    </p></td>
+  </tr>
+  <tr>
+    <td class="Texte">&nbsp;</td>
+  </tr>
+</table>
+
+</body>
+
+</html>

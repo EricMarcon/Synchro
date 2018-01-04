@@ -1,0 +1,125 @@
+<!doctype HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>Synchro - Options</title>
+<link href="../help.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body background="../images/fond.jpg" bgproperties="fixed">
+
+<table class="Entete">
+  <tr>
+    <td class="Titre">Options<br />
+    <span class="SousTitre">Synchro</span></td>
+  </tr>
+</table>
+<hr size="1" />
+<table class="Page">
+  <tr> 
+    <td class="Texte"> <h1>Options</h1>
+      <p>Les options peuvent &ecirc;tre utilis&eacute;es dans la <a href="../commandline/index.htm">ligne 
+        de commande</a> ou coch&eacute;es dans le formulaire de synchronisation 
+        en <a href="../interactive/index.htm">mode interactif</a>.</p>
+      <h2>Options de copie</h2>
+      <ul>
+        <li><strong>/s</strong> : Copie les sous-r&eacute;pertoires.</li>
+        <li><strong>/e</strong> : Copie les sous-r&eacute;pertoires vides. Sans 
+              effet si /s n'est pas sp&eacute;cifi&eacute;.</li>
+        <li><strong>/r</strong> : Ecrase les fichiers en lecture seule.</li>
+        <li><strong>/d</strong> : Pr&eacute;serve les fichiers plus r&eacute;cents 
+              ou de m&ecirc;me date. Seuls les fichiers plus anciens sont &eacute;cras&eacute;s. Si la taille est diff&eacute;rente, les fichiers sont copi&eacute;s quelle que soit la date. </li>
+        <li><strong>/Samba</strong> : En compl&eacute;ment de /d, autorise une diff&eacute;rence d'une seconde entre les dates de fichiers pour ne pas r&eacute;&eacute;crire syst&eacute;matiquement les fichiers non modifi&eacute;s mais stock&eacute;s dans des syst&egrave;mes diff&eacute;rents. Particuli&egrave;rement utile pour les sauvegardes sur NAS Samba. </li>
+        <li><strong>/u</strong> : Copie seulement les fichiers existants d&eacute;j&agrave;. 
+              Aucun nouveau fichier ne sera cr&eacute;&eacute;.</li>
+        <li><strong>/z</strong> : Synchronise. Supprime les fichiers de la cible
+          qui n'existent pas dans la source.</li>
+        <li><strong>/a</strong>&nbsp;: Copie les droits sur les fichiers (ACL) comprenant les droits d'acc&egrave;s (DACL), les param&egrave;tres d'audit, le propri&eacute;taire. Les droits sur un fichier ne sont modifi&eacute;s que si le fichier est modifi&eacute;.</li>
+        <li><strong>/k</strong>&nbsp;: Copie les attributs des fichiers et des dossiers (lecture seule, etc.). Les attributs d'un fichier ne sont modifi&eacute;s que si le fichier est modifi&eacute;.</li>
+        <li><strong>/x=&quot;Liste&quot;</strong>&nbsp;: exclut les fichiers
+              et dossiers correspondant aux masques saisis.
+            <ul>
+              <li>Les caract&egrave;res
+                      g&eacute;n&eacute;riques <strong>*</strong> et <strong>?</strong> sont
+                      utilisables. S&eacute;parer les masques par <strong>;</strong>.
+                     Exemples&nbsp;:
+                     <ul>
+                       <li>/x=&quot;*\Local Settings\*&quot;&nbsp;: exclut le
+                         dossier <em>Local
+                               settings.</em></li>
+                       <li>/x=&quot;*\temp\*;*.bak;*\~*&quot;&nbsp;: exclut le
+                         dossier <em>Temp</em>, les fichiers dont l'extension est <em>.bak</em>,
+                             et les fichiers ou dossiers dont le nom commence par <em>~</em></li>
+                     </ul>
+              </li>
+              <li>Pour les utilisateurs avanc&eacute;s, les caract&egrave;res suivants sont
+                        utilisables &eacute;galement&nbsp;:
+                        <ul>
+                          <li><strong>#</strong> pour un chiffre (plus restrictif que
+                            <strong>?</strong>)</li>
+                          <li><strong>[</strong>A<strong>-</strong>E<strong>]</strong> pour
+                            tous les caract&egrave;res entre A et E, majuscules ou minuscules,
+                            avec accents &eacute;ventuellement (les e accentu&eacute;s sont
+                            exclus car ils sont class&eacute;s apr&egrave;s E dans l'ordre
+                            de tri)</li>
+                          <li><strong>[!</strong>B<strong>-</strong>D<strong>]</strong> pour
+                              tous les caract&egrave;res non compris entre B et D.</li>
+                          <li>Exemple&nbsp;: Le fichier <em>C:\aM5b.exe</em> ne
+                            sera pas copi&eacute; avec l'option /x=&quot;C:\a[L-P]#[!c-e]</li>
+                        </ul>
+              </li>
+            </ul>
+        </li>
+        </ul>      
+      <h2>Options de comportement</h2>
+      <ul>
+        <ul>
+          <li><strong>/n</strong>&nbsp;: ne demande pas de confirmation avant 
+            de cr&eacute;er de nouveaux fichiers.</li>
+          <li><strong>/y</strong>&nbsp;: ne demande pas de confirmation avant 
+            de supprimer des fichiers.</li>
+          <li><strong>/g</strong>&nbsp;: ne s'arr&ecirc;te pas en cas d'erreur. </li>
+          <li><strong>/w</strong>&nbsp;: demande une confirmation avant de fermer
+             la fen&ecirc;tre &agrave; la fin de la synchronisation (sans effet
+             en mode console)</li>
+          <li><strong>/q</strong>&nbsp;: n'&eacute;value pas la taille des fichiers
+            avant de lancer la copie. Plus rapide, mais sans barre de progression
+            (sans effet en mode console)</li>
+          <li><strong>/l =&quot;Nom de fichier&quot;</strong>&nbsp;: enregistre
+             toute l'activit&eacute; dans le fichier de trace sp&eacute;cifi&eacute;.</li>
+        </ul>
+        <blockquote>
+          <p>&nbsp;</p>
+        </blockquote>
+      </ul>
+      <h2>Ligne de commande uniquement</h2>
+      <ul>
+        <li>L'option <strong>/go</strong> lance la synchronisation en mode console.
+          Les messages sont affich&eacute;s dans la fen&ecirc;tre de commande
+          en cours, aucune fen&ecirc;tre n'est ouverte. Si les options /n et
+          /y sont utilis&eacute;es, aucune intervention de l'utilisateur n'est
+        n&eacute;cessaire. Les options /g, /q sont forc&eacute;es, /w est ignor&eacute;e.</li>
+      </ul>
+      <p>&nbsp;</p>      <h1>Exemple:</h1>
+      <ul>
+        <li><strong>Synchro &quot;C:\Tools\My Docs.syn&quot; /go</strong> lance 
+          la synchronisation sauv&eacute;e dans &quot;My Docs.syn&quot;. Il d&eacute;marre 
+          automatiquement.</li>
+        <li><strong>Synchro /Source=C:\Source Target=C:\Target /s /e /n /z /l=C:\Synchro.log 
+          </strong> synchronise C:\Target sur C:\Source. Il copie les sous-r&eacute;pertoires, 
+          m&ecirc;me vides, ne demande pas de confirmation avant de cr&eacute;er 
+          les fichiers (mais demande avant de supprimer), et supprime les fichiers 
+          exc&eacute;dentaires dans la cible. L'acivit&eacute; est enregistr&eacute;e 
+          dans le fichier C:\Synchro.log.</li>
+      </ul>
+      <hr /> <p class="FinPage">&copy; 2003-2009 - Mise à jour le 
+        <!-- #BeginDate format:En2 -->12-Mar-2009<!-- #EndDate -->
+    </p></td>
+  </tr>
+  <tr>
+    <td class="Texte">&nbsp;</td>
+  </tr>
+</table>
+
+</body>
+
+</html>

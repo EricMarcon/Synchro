@@ -1,12 +1,12 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled file=..\App\Synchro.chm
+Compiled file=..\App\bin\fr\Synchro.chm
 Contents file=Synchro.hhc
 Default topic=html\index.htm
 Display compile progress=Yes
 Full-text search=Yes
 Index file=Synchro.hhk
-Language=0x809 Anglais (Royaume-Uni)
+Language=0x40c Français (France)
 Title=Synchro
 
 

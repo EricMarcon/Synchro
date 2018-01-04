@@ -1,0 +1,22 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\App\bin\Synchro.chm
+Contents file=Synchro.hhc
+Default topic=html\index.htm
+Display compile progress=Yes
+Full-text search=Yes
+Index file=Synchro.hhk
+Language=0x809 Anglais (Royaume-Uni)
+Title=Synchro
+
+
+[FILES]
+html\about.htm
+html\index.htm
+html\commandline\index.htm
+html\interactive\index.htm
+html\options\index.htm
+html\interactive\options.htm
+
+[INFOTYPES]
+
